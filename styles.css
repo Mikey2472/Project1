@@ -106,7 +106,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: black;
 }
 .hobbie-text {
     text-align: center;
