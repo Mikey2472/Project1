@@ -128,7 +128,16 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
-
+.interest-list {
+    text-align: center;
+    padding: 0px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+.interest-list li {
+    list-style: none;
+    padding: 5px 0px;
+}
 footer {
   width: 100%;
   min-height: 30px;
