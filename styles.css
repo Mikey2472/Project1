@@ -54,10 +54,12 @@ a:hover {
 .nav a:hover {
   color: white
 }
-
+.current {
+   border-bottom: 2px solid #efefef; 
+}
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/rsz_liverpoolskylinenight.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,11 +72,16 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 5px solid white;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(360deg);
+}
+.hobbie-images {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 }
 .tag {
   background-color: #efefef;
@@ -85,8 +92,8 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: black;
+  color: #efefef;
 }
 .card {
   margin: 30px;
@@ -101,7 +108,9 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff99ff;
 }
-
+.hobbie-text {
+    text-align: center;
+}
 ul.skills {
   padding: 0;
   text-align: center;
@@ -166,7 +175,12 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
+.footer-validation {
+    display: flex;
+}
+.footer-validation p {
+    flex: auto;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
